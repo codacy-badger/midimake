@@ -1,4 +1,5 @@
-#include <Midi.hpp>
+#include <MIDIfile.hpp>
+#include <cstdio> // for std::fopen
 
 int main()
 {
