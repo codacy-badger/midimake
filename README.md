@@ -1,3 +1,3 @@
 # midimake
 Make midi from source using c++
-Author @Bisqwit
+Author [@Bisqwit](https://github.com/bisqwit)
