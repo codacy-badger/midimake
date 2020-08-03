@@ -1,7 +1,7 @@
 #ifndef MIDITRACK_HPP
 #define MIDITRACK_HPP
 #include <cstring> // for std::strlen
-#include <MIDIvec.hpp>
+#include "MIDIvec.hpp"
 
 /* Define a class which encodes MIDI events into a track */
 class MIDItrack: public MIDIvec

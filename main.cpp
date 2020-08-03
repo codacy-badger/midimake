@@ -1,7 +1,8 @@
-#include <MIDIfile.hpp>
+#include "include/MIDIfile.hpp"
 #include <cstdio> // for std::fopen
+#include <cstring>
 
-int main()
+int main(int argc, char **argv)
 {
     // Now that we have a class that can create MIDI files, let's create
     // music.
@@ -92,7 +93,7 @@ int main()
 
     file.Finish();
 
-    FILE* fp = std::fopen("test.mid", "wb");
+    FILE *fp = std::fopen("test.mid", "wb");
     std::fwrite(&file.at(0), 1, file.size(), fp);
     std::fclose(fp);
 

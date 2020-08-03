@@ -34,3 +34,6 @@
 
 # media files
 *.mid
+
+# cache
+.ccls*
